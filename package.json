@@ -1,0 +1,19 @@
+{
+  "name": "@backlight-dev/movie-adopt-gc51c.stitches-l6tcy17c",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx backlight@latest serve 4Y54XNcVO5jahQpf4BEw --open"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@stitches/react": "*",
+    "@mdx-js/react": "*",
+    "react": "^17",
+    "react-dom": "^17",
+    "@divriots/dockit-react": "*"
+  }
+}

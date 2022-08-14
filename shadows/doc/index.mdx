@@ -1,0 +1,21 @@
+import React from 'react';
+import { mdx } from '@mdx-js/react';
+
+import { SystemUIShowcases } from '@divriots/dockit-react/systemui-showcases';
+
+import { MdxLayout } from '~/layout';
+export default MdxLayout;
+
+import * as pkg from '../src';
+
+# Shadows
+
+<SystemUIShowcases
+  theme={{ ...pkg }}
+  showcaseKey="boxShadow"
+  componentProps={{
+    width: '8rem',
+    height: '8rem',
+    borderRadius: 4,
+  }}
+/>

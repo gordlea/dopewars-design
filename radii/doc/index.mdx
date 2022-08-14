@@ -1,0 +1,22 @@
+import React from 'react';
+import { mdx } from '@mdx-js/react';
+
+import { SystemUIShowcases } from '@divriots/dockit-react/systemui-showcases';
+
+import { MdxLayout } from '~/layout';
+export default MdxLayout;
+
+import * as pkg from '../src';
+
+# Radii
+
+<SystemUIShowcases
+  theme={{ ...pkg }}
+  showcaseKey="borderRadius"
+  componentProps={{
+    width: '8rem',
+    height: '8rem',
+    boxShadow: 'large',
+    bg: 'green',
+  }}
+/>

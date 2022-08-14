@@ -1,0 +1,34 @@
+{
+  "packages": {
+    "dir": "",
+    "menu": [
+      [
+        "TOKENS",
+        [
+          "borders",
+          "colors",
+          "radii",
+          "shadows",
+          "sizes",
+          "spaces",
+          "transitions",
+          "typography",
+          "zIndices",
+          "stitches"
+        ]
+      ],
+      [
+        "COMPONENTS",
+        [
+          "button"
+        ]
+      ],
+      [
+        "DOCKIT",
+        [
+          "layout"
+        ]
+      ]
+    ]
+  }
+}

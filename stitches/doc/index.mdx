@@ -1,0 +1,124 @@
+import React from 'react';
+import { mdx } from '@mdx-js/react';
+
+import { SystemUIShowcases } from '@divriots/dockit-react/systemui-showcases';
+
+import { MdxLayout } from '~/layout';
+export default MdxLayout;
+
+import { theme } from '../src';
+
+# Stitches tokens
+
+## Borders
+
+### Borders Widths
+
+<SystemUIShowcases
+  theme={theme}
+  showcaseKey="borderWidth"
+  componentProps={{
+    width: '8rem',
+    height: '8rem',
+    boxShadow: 'large',
+    borderRadius: '1',
+    borderColor: 'green.6',
+    borderStyle: 'solid',
+  }}
+/>
+
+### Borders Styles
+
+<SystemUIShowcases
+  theme={theme}
+  showcaseKey="borderStyle"
+  componentProps={{
+    width: '8rem',
+    height: '8rem',
+    boxShadow: 'large',
+    borderRadius: '1',
+    borderColor: 'green.6',
+    borderWidth: '2px',
+  }}
+/>
+
+## Colors
+
+<SystemUIShowcases
+  theme={theme}
+  showcaseKey="bg"
+  componentProps={{
+    width: '8rem',
+    height: '8rem',
+    boxShadow: 'large',
+    borderRadius: 4,
+    checkeredBackground: true,
+  }}
+/>
+
+## Radii
+
+<SystemUIShowcases
+  theme={theme}
+  showcaseKey="borderRadius"
+  componentProps={{
+    width: '8rem',
+    height: '8rem',
+    boxShadow: 'large',
+    bg: 'green',
+  }}
+/>
+
+## Shadows
+
+<SystemUIShowcases
+  theme={theme}
+  showcaseKey="boxShadow"
+  componentProps={{
+    width: '8rem',
+    height: '8rem',
+    borderRadius: 4,
+  }}
+/>
+
+## Sizes
+
+<SystemUIShowcases
+  theme={theme}
+  showcaseKey="width"
+  componentProps={{
+    height: '8rem',
+    boxShadow: 'large',
+    bg: 'green',
+  }}
+/>
+
+## Spaces
+
+<SystemUIShowcases theme={theme} showcaseKey="space" />
+
+## Typography
+
+### Fonts
+
+<SystemUIShowcases theme={theme} showcaseKey="fontFamily" />
+
+### Font Sizes
+
+<SystemUIShowcases theme={theme} showcaseKey="fontSize" />
+
+### Font Weights
+
+<SystemUIShowcases theme={theme} showcaseKey="fontWeight" />
+
+### Line Height
+
+<SystemUIShowcases theme={theme} showcaseKey="lineHeight" />
+
+### Letter Spacing
+
+<SystemUIShowcases theme={theme} showcaseKey="letterSpacing" />
+
+## zIndex
+
+<SystemUIShowcases theme={theme} showcaseKey="zIndex" />
