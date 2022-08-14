@@ -1,3 +1,5 @@
+// import '../LessPerfectDOSVGA.ttf';
+
 export const fontSizes = {
   1: '0.75rem',
   2: '1rem',
