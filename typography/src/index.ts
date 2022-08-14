@@ -5,6 +5,7 @@ export const fontSizes = {
 };
 
 export const fonts = {
+	x: 'LessPerfectDOSVGA',
   headings: 'Untitled Sans, apple-system, sans-serif',
   body: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
   mono: 'Söhne Mono, menlo, monospace',
